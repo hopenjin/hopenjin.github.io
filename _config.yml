@@ -21,7 +21,8 @@ repository               : "hopenjin/hopenjin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.png"
+  # avatar           : "images/profile.png"
+  avata            : "{{ site.baseurl }}/images/profile.jpg"
   name             : "Hongpeng Jin"
   pronouns         : "he/his"  
   bio              : "Language models are unbelievable🤯"
