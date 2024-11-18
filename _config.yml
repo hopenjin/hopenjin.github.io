@@ -12,16 +12,16 @@ title                    : "Hongpeng Jin / Academic Portfolio"
 title_separator          : "-"
 name                     : &name "Hongpeng Jin"
 description              : &description "personal description"
-url                      : https://hopenjin.github.io/academicpage.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "hopenjin/academicpage.io"
+repository               : "hopenjin/hopenjin.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.jpg"
+  avatar           : "/images/profile.jpg"
   name             : "Hongpeng Jin"
   pronouns         : "he/his"  
   bio              : "Language models are unbelievable🤯"
