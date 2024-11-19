@@ -22,7 +22,7 @@ repository               : "hopenjin/hopenjin.github.io"
 author:
   # Biographic information
   # avatar           : "images/profile.png"
-  avatar           : "{{ site.baseurl }}/images/profile.jpg"
+  avatar           : "{{ site.baseurl }}/images/profile.png"
   name             : "Hongpeng Jin"
   pronouns         : "he/his"  
   bio              : "Language models are unbelievable🤯"
