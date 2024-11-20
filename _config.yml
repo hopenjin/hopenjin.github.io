@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Hongpeng Jin / Academic Portfolio"
+title                    : "Hongpeng Jin"
 title_separator          : "-"
 name                     : &name "Hongpeng Jin"
 description              : &description "personal description"
