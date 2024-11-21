@@ -19,7 +19,7 @@ Updates
 ======
 - **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"*  for review at CVPR 2025.  
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"*&nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
-- **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* at CogMI 2024.  
+- **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp; at CogMI 2024.  
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* in CogMI 2023.  
 
