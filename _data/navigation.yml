@@ -19,6 +19,9 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
+  
+  - title: "Work Experience"   
+    url: /work-experience/
     
   - title: "CV"
     url: /files/CV_HongpengJin_1119.pdf # /cv/
