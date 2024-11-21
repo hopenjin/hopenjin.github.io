@@ -17,6 +17,7 @@ I hold a Master of Science in Information Technology and Management from the Uni
 
 Updates
 ======
+- <span style="color: darkorange;">I am actively seeking **2025 Summer Internship opportunities** in areas related to Large Language Models (LLMs).</span>
 - **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"*  for review at CVPR 2025.  
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* at CogMI 2024.  
