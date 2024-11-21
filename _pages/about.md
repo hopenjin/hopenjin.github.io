@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU), working under the supervision of [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
+Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my acdamic journey in Fall 2023 under the supervision of  [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
 
 My primary **esearch interests focus** on Large Language Models (LLMs), emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
 
