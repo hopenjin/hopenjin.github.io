@@ -17,11 +17,11 @@ I hold a Master of Science in Information Technology and Management from the Uni
 
 Updates
 ======
-- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"*  for review at CVPR 2025.  
-- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"*&nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
+- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp; for review at CVPR 2025.  
+- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp; at CogMI 2024.  
-- **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
-- **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* in CogMI 2023.  
+- **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp; has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
+- **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp; in CogMI 2023.  
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
