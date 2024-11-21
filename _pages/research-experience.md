@@ -27,10 +27,8 @@ Ongoing Research and Key Contributions
 
 * Advanced Training Strategies and Ensemble Learning for Model Performance
   Research on enhancing training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).
-
-  Mentor: Dr. Yanzhao Wu
-  
-  Contributions:
+  <br>Mentor: Dr. Yanzhao Wu
+  <br>Contributions:
     * **Efficient and Learning Rate Boosted Deep Ensembles**  
       * under review at CVPR 2025  
       Proposed the LREnsemble framework, effectively utilizing diverse models, generated through learning rate (LR) tuning, to construct efficient and high-quality ensembles, avoiding the waste of sub-optimal LR-tuned models by leveraging their diversity for ensemble learning.
