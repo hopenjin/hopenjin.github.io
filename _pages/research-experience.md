@@ -14,7 +14,9 @@ Ongoing Research and Key Contributions
 ======
 * Efficient Deployment and Inferencing of Large Language Models
   Research on optimizing both the inference processes and scalability of Large Language Models (LLMs) by leveraging strategies like cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit, quantization).
+
   Mentor: Dr. Yanzhao Wu
+  
   Contributions:
     * **CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration**  
       * *arXiv:2411.02829*, under review at MLSys 2025  
@@ -25,7 +27,9 @@ Ongoing Research and Key Contributions
 
 * Advanced Training Strategies and Ensemble Learning for Model Performance
   Research on enhancing training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).
+
   Mentor: Dr. Yanzhao Wu
+  
   Contributions:
     * **Efficient and Learning Rate Boosted Deep Ensembles**  
       * under review at CVPR 2025  
