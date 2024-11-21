@@ -9,18 +9,18 @@ redirect_from:
 
 Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU), working under the supervision of [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
 
-My primary research focuses on Large Language Models (LLMs), emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. My goal is to deeply explore the underlying mechanisms and untapped potential of large language models (LLMs), aiming to uncover innovative findings with significant academic value and practical industrial applications.
+My primary **esearch interests focus** on Large Language Models (LLMs), emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
 
-I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas and a Bachelor of Arts in Tourism Management from Nanjing Normal University. Before pursuing my Ph.D., I gained valuable industry experience as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
+I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas and a Bachelor of Arts in Tourism Management from Nanjing Normal University. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
 
 
 Updates
 ======
-- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* for review at CVPR 2025.  
+- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"*  for review at CVPR 2025.  
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
+- **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* at CogMI 2024.  
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
-- **Aug 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* at CogMI 2024.  
-- **Jul 2023** - Published *"Rethinking Learning Rate Tuning in Large Language Models"* in CogMI 2023.  
+- **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* in CogMI 2023.  
 
 
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
