@@ -4,6 +4,11 @@ title: "Research Experience"
 permalink: /research-experience/
 author_profile: true
 ---
+<style>
+.page__title {
+  display: none;
+}
+</style>
 
 Ongoing Research and Key Contributions
 ======
@@ -33,8 +38,8 @@ Ongoing Research and Key Contributions
       Introduced the LRBench++, a dynamic learning rate tuning framework, improving DNNs and LLMs training efficiency and achieving a balance between model accuracy and training cost.
 
 
-Academic Service and Peer Review Contributions
 <!-- Contributions to the Academic Community -->
+Academic Service and Peer Review Contributions
 ======
 * Reviewer: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024
 * Reviewer: Asian Conference on Machine Learning (ACML), 2024
