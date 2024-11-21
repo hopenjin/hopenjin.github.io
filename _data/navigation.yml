@@ -19,7 +19,9 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-  
+
+  - title: "Research Experience"   
+    url: /research-experience/  
   - title: "Work Experience"   
     url: /work-experience/
     
