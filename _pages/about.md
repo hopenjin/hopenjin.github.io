@@ -9,10 +9,11 @@ redirect_from:
 
 Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my acdamic journey in Fall 2023 under the supervision of  [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
 
-My primary **esearch interests focus** on Large Language Models (LLMs), emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
+My primary **research interests focus** on Large Language Models (LLMs) and LLM Agents, emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
 
 I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas and a Bachelor of Arts in Tourism Management from Nanjing Normal University. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
 
+<span style="color: darkorange;">I am actively seeking **2025 Summer Internship opportunities** in areas related to Large Language Models (LLMs).</span>
 
 Updates
 ======
