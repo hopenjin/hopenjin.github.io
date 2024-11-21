@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my acdamic journey in Fall 2023 under the supervision of  [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
+Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my acdamic journey in Fall 2023 under the supervision of [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
 
 My primary **research interests focus** on Large Language Models (LLMs) and LLM Agents, emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
 
@@ -18,7 +18,7 @@ I hold a Master of Science in Information Technology and Management from the Uni
 Updates
 ======
 - **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"*  for review at CVPR 2025.  
-- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
+- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"*&nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* at CogMI 2024.  
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* in CogMI 2023.  
