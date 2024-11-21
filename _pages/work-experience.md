@@ -5,7 +5,7 @@ permalink: /work-experience/
 author_profile: true
 ---
 
-======
+
 * **Cintra US** (Austin, TX) \| Data Scientist \| May 2022 – Aug. 2023 
   * Built machine learning models to improve the work efficiency of business and operation teams, including:  
     1. **Dynamic Pricing**: Developed LightGBM (quantile) models to predict future demand and its confidence interval, enabling the identification of demand anomalies.  
