@@ -13,9 +13,9 @@ author_profile: true
 Ongoing Research and Key Contributions
 ======
 * Efficient Deployment and Inferencing of Large Language Models
-  * Research on optimizing both the inference processes and scalability of Large Language Models (LLMs) by leveraging strategies like cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit, quantization).
-  * Mentor: Dr. Yanzhao Wu
-  * Contributions:
+  Research on optimizing both the inference processes and scalability of Large Language Models (LLMs) by leveraging strategies like cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit, quantization).
+  Mentor: Dr. Yanzhao Wu
+  Contributions:
     * **CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration**  
       * *arXiv:2411.02829*, under review at MLSys 2025  
       Proposed the CE-CoLLM method to optimize the inference efficiency and accuracy of LLMs on edge devices through cloud-edge collaboration and ML efficiency techniques, addressing diverse requirements such as inference accuracy, low latency, resource constraints, and privacy preservation.
@@ -24,9 +24,9 @@ Ongoing Research and Key Contributions
       Proposed the DA-MoE method, a dynamic expert allocation mechanism for Mixture-of-Experts (MoE) models that leverages attention-based token importance in Transformer architectures to dynamically adjust the number of experts per token, enhancing efficiency and predictive performance.
 
 * Advanced Training Strategies and Ensemble Learning for Model Performance
-  * Research on enhancing training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).
-  * Mentor: Dr. Yanzhao Wu
-  * Contributions:
+  Research on enhancing training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).
+  Mentor: Dr. Yanzhao Wu
+  Contributions:
     * **Efficient and Learning Rate Boosted Deep Ensembles**  
       * under review at CVPR 2025  
       Proposed the LREnsemble framework, effectively utilizing diverse models, generated through learning rate (LR) tuning, to construct efficient and high-quality ensembles, avoiding the waste of sub-optimal LR-tuned models by leveraging their diversity for ensemble learning.
