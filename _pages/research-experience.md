@@ -40,7 +40,7 @@ Ongoing Research and Key Contributions
       Introduced the LRBench++, a dynamic learning rate tuning framework, improving DNNs and LLMs training efficiency and achieving a balance between model accuracy and training cost.
 
 
-<!-- Contributions to the Academic Community -->
+
 Academic Service and Peer Review Contributions
 ======
 * Reviewer: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024
@@ -57,6 +57,8 @@ Awards
 * IEEE TPS 2023 NSF Travel Award, November 2023
 
 
+
+<!-- Contributions to the Academic Community -->
 <!-- * **Cintra US** (Austin, TX) \| Data Scientist \| May 2022 – Aug. 2023 
   * Built machine learning models to improve the work efficiency of business and operation teams, including:  
     1. **Dynamic Pricing**: Developed LightGBM (quantile) models to predict future demand and its confidence interval, enabling the identification of demand anomalies.  
