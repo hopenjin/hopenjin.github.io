@@ -12,7 +12,7 @@ author_profile: true
 
 Ongoing Research and Key Contributions
 ======
-* Efficient Deployment and Inferencing of Large Language Models
+* Efficient Deployment and Inference of Large Language Models
   Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit, quantization).
   <br>Mentor: Dr. Yanzhao Wu
   <br>Contributions:
