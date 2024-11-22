@@ -19,6 +19,8 @@ author_profile: true
   * Assisted UX teams with power analysis, A/B testing, and general linear regression methods to optimize email survey titles and UI.
 
 * **Samsung Electronics America** (Plano, TX) \| QA Engineer \| Mar. 2019 – Mar. 2020
+  * Validated functions related to communication networks of Android devices across different wireless networks (GSM, WCDMA, 4G, and 5G) through software, field, and automation testing.
+  * Analyzed emerging issues based on device logs and testing data to identify root causes and closely collaborated with the R&D team to conduct further verifications and analyses.
 
 * **ZTE USA Inc.** (Richardson, TX) \| Software Test Engineer \| Apr. 2018 – Mar. 2019 
   * Developed and implemented the "AIO" automation testing project, transitioning from manual to automated testing to enhance efficiency and quality.
