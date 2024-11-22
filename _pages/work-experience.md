@@ -5,6 +5,7 @@ permalink: /work-experience/
 author_profile: true
 ---
 
+You can also find my work experience on [my LinkedIn profile](https://www.linkedin.com/in/hongpeng-jin/).
 
 * **Cintra US** (Austin, TX) \| Data Scientist \| May 2022 – Aug. 2023 
   * Built machine learning models to improve the work efficiency of business and operation teams, including:  
