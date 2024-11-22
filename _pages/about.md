@@ -11,16 +11,16 @@ Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knigh
 
 My primary **research interests focus** on Large Language Models (LLMs) and LLM Agents, emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
 
-I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas and a Bachelor of Arts in Tourism Management from Nanjing Normal University. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
+I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
 
 <span style="color: #B31B1B;">I am actively seeking **2025 Summer Research Internship opportunities** in areas related to Large Language Models (LLMs).</span>
 
 Updates
 ======
-- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp; for review at CVPR 2025.  
-- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under review at MLSys 2025.  
+- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp; for conference review. 
+- **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp; is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under conference review.
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp; at CogMI 2024.  
-- **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp; has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)).  
+- **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp; has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)) and under conference review.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp; in CogMI 2023.  
 
 
