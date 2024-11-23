@@ -62,4 +62,16 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Add smooth scrolling to nav links
+  $('.greedy-nav a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    
+    var target = $(this.hash);
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top - 60 // Offset for fixed header
+      }, 500); // Animation duration in ms
+    }
+  });
+
 });
