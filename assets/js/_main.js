@@ -69,7 +69,7 @@ $(document).ready(function(){
     var target = $(this.hash);
     if (target.length) {
       $('html, body').animate({
-        scrollTop: target.offset().top - 60 // Offset for fixed header
+        scrollTop: target.offset().top - 80 // Offset for fixed header
       }, 500); // Animation duration in ms
     }
   });
