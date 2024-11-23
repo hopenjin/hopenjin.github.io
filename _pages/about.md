@@ -35,7 +35,7 @@ Updates
 
 Publications & Preprints {#publications}
 ======
-You can also find my work experience on [my Google Scholar profile](https://scholar.google.com/citations?user=Kkmx5XwAAAAJ).
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=Kkmx5XwAAAAJ).
 * CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
   Hongpeng Jin, Yanzhao Wu.<br>
   arXiv preprint arXiv:2411.02829
