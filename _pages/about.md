@@ -24,6 +24,7 @@ Updates
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp;has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)) and under conference review.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp;in CogMI 2023.  
 
+<a id="publications"></a>
 
 Publications & Preprints
 ======
@@ -80,7 +81,6 @@ Professional Services
 Work Experience
 ======
 You can also find my work experience on [my LinkedIn profile](https://www.linkedin.com/in/hongpeng-jin/).
-
 * **Cintra US** (Austin, TX) \| Data Scientist \| May 2022 – Aug. 2023 
   * Built machine learning models to improve the work efficiency of our business or operation team, including, improving our dynamic pricing model, creating incident detection model, creating analytics AI model for auto-analysis reports, etc.
   * Conducted statistical analyses (AB tests) to quantify driver behaviors and preferences and measure the impact of various external interventions
