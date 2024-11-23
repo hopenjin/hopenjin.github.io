@@ -6,7 +6,7 @@
 
 main:
   - title: "Publications"
-    url: \#publications-preprints  # "/#publications--preprints" # /publications/
+    url: "/#publications"  # "/#publications--preprints" # /publications/
 
   # - title: "Talks"
   #   url: /talks/    
