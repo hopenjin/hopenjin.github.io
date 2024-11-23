@@ -62,6 +62,9 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+
+  
+
   // Smooth scrolling for nav links
   $('.greedy-nav a[href^="#"]').on('click', function(e) {
     e.preventDefault(); // 阻止默认行为
@@ -72,17 +75,21 @@ $(document).ready(function(){
     // 禁用其他点击事件
     $('body').css('pointer-events', 'none');
     
-    $('html, body').animate({
-      scrollTop: target.offset().top - 480
-    }, 500, function() {
-      // 动画完成后重新启用点击事件
+    // 使用 scrollIntoView 进行平滑滚动
+    target[0].scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+
+    // 动画完成后重新启用点击事件
+    setTimeout(function() {
       $('body').css('pointer-events', 'auto');
       
       // 更新 URL 但不触发跳转
-      if (history.pushState) {
-        history.pushState(null, null, target.selector);
+      if (history.replaceState) {
+        history.replaceState(null, null, target.selector);
       }
-    });
+    }, 500); // 动画持续时间与 scrollIntoView 保持一致
   });
 
 });
