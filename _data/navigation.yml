@@ -6,7 +6,7 @@
 
 main:
   - title: "Publications"
-    url: "/#publications" # /publications/
+    url: \#publications-preprints  # "/#publications--preprints" # /publications/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -21,9 +21,9 @@ main:
   #   url: /year-archive/
 
   - title: "Research Experience"   
-    url: /research-experience/  
+    url: \#research-experience # /research-experience/  
   - title: "Work Experience"   
-    url: /work-experience/
+    url: \#work-experience #/work-experience/
     
   - title: "CV"
     url: /files/CV-Hongpeng-Jin.pdf # /cv/
