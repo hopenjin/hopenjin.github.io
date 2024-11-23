@@ -27,26 +27,47 @@ Updates
 
 Publications & Preprints
 ======
-* CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration
-  Hongpeng Jin, Yanzhao Wu.
+* CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
+  Hongpeng Jin, Yanzhao Wu.<br>
   arXiv preprint arXiv:2411.02829
 
-* DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models
-  Maryam Akhavan Aghdam, Hongpeng Jin, Yanzhao Wu.
+* DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models<br>
+  Maryam Akhavan Aghdam, Hongpeng Jin, Yanzhao Wu.<br>
   arXiv preprint arXiv:2409.06669
 
-* Effective Diversity Optimizations for Deep Ensembles
-  Hongpeng Jin, Maryam Akhavan Aghdam, Sai Nath Chowdary Medikonduru, Wenqi Wei, Xuyu Wang, Wenbin Zhang, Yanzhao Wu.
+* Effective Diversity Optimizations for Deep Ensembles<br>
+  Hongpeng Jin, Maryam Akhavan Aghdam, Sai Nath Chowdary Medikonduru, Wenqi Wei, Xuyu Wang, Wenbin Zhang, Yanzhao Wu.<br>
   2024 IEEE International Conference on Cognitive Machine Intelligence (CogMI 2024)
 
-* Rethinking Learning Rate Tuning in the Era of Large Language Models
-  Hongpeng Jin, Wenqi Wei, Xuyu Wang, Wenbin Zhang, and Yanzhao Wu.
+* Rethinking Learning Rate Tuning in the Era of Large Language Models<br>
+  Hongpeng Jin, Wenqi Wei, Xuyu Wang, Wenbin Zhang, and Yanzhao Wu.<br>
   2023 IEEE International Conference on Cognitive Machine Intelligence (CogMI 2023)
 
 
 Research Experience
 ======
 
+* Efficient Deployment and Inference of Large Language Models<br>
+  Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit).<br>
+  **Supervisor**: Dr. Yanzhao Wu<br>
+  ontributions:<br>
+  1. **CE-CoLLM**: A LLM development method to optimize the inference efficiency and accuracy of LLMs on edge devices through cloud-edge collaboration and ML efficiency techniques, addressing diverse requirements such as inference accuracy, low latency, resource constraints, and privacy preservation.
+  2. **DA-MoE**: A dynamic expert allocation mechanism for Mixture-of-Experts (MoE) models that leverages attention-based token importance in Transformer architectures to dynamically adjust the number of experts per token, enhancing efficiency and predictive performance.<br><br>
+
+
+* Ensemble Learning for Model Performance and Robustness<br>
+  Research on improving key aspects of Ensemble Learning, including diversity measurement, ensemble selection strategies, voting mechanisms, training methodologies, overall ensemble performance, and applications.<br>  
+  **Supervisor**: Dr. Yanzhao Wu<br>  
+  Contributions:<br>
+  1. **LREnsemble**: An ensemble construction framework, effectively utilizing diverse models, generated through learning rate (LR) tuning, to construct efficient and high-quality ensembles, avoiding the waste of sub-optimal trained models by leveraging their diversity for ensemble learning.
+  2. **Synergistic Diversity Metric (SQ)**: An ensemble diversity metric, significantly improving ensemble accuracy and robustness to out-of-distribution samples by optimizing diversity among member models.<br><br>
+
+
+* Hyperparameter Optimization Strategy for Model Training<br>
+  Research on developing advanced hyperparameter optimization strategies to enhance the training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).<br>  
+  **Supervisor**: Dr. Yanzhao Wu<br>
+  Contributions:<br>
+  1. **LRBench++**: A dynamic learning rate tuning framework, improving DNNs and LLMs training efficiency and achieving a balance between model accuracy and training cost.
 
 
 Work Experience
