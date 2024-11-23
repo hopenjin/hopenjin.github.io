@@ -5,8 +5,10 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "About me"
+    url: "/#about-me" 
   - title: "Publications"
-    url: "/#publications"  # "/#publications--preprints" # /publications/
+    url: "/#publications" 
 
   # - title: "Talks"
   #   url: /talks/    
@@ -21,9 +23,9 @@ main:
   #   url: /year-archive/
 
   - title: "Research Experience"   
-    url: \#research-experience # /research-experience/  
+    url: "/#research-experience"   
   - title: "Work Experience"   
-    url: \#work-experience #/work-experience/
+    url: "/#work-experience" 
     
   - title: "CV"
     url: /files/CV-Hongpeng-Jin.pdf # /cv/

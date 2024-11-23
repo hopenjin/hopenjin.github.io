@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+{#about-me}
 Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my acdamic journey in Fall 2023 under the supervision of [Dr. Yanzhao Wu](https://yanzhaowu.me/). 
 
 My primary **research interests focus** on Large Language Models (LLMs) and LLM Agents, emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
@@ -46,7 +46,7 @@ You can also find my work experience on [my Google Scholar profile](https://scho
   2023 IEEE International Conference on Cognitive Machine Intelligence (CogMI 2023)
 
 
-Research Experience
+Research Experience {#research-experience}
 ======
 * **Efficient Deployment and Inference of Large Language Models**<br>
   Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit).<br>
@@ -79,7 +79,7 @@ Professional Services
 * External Reviewer: SIAM International Conference on Data Mining (SDM), 2024
 
 
-Work Experience
+Work Experience {#work-experience}
 ======
 You can also find my work experience on [my LinkedIn profile](https://www.linkedin.com/in/hongpeng-jin/).
 * **Cintra US** (Austin, TX) \| Data Scientist \| May 2022 – Aug. 2023 
