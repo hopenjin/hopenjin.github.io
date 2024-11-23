@@ -39,3 +39,29 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* 为所有目标部分设置统一偏移 */
+// #about-me,
+// #publications,
+// #research-experience,
+// #work-experience {
+//   scroll-margin-top: 80px;  /* 上方偏移 */
+//   scroll-margin-bottom: 20px;  /* 下方偏移 */
+// }
+
+/* 或者为不同部分设置不同偏移 */
+#about-me {
+  scroll-margin-top: 100px;
+}
+
+#publications {
+  scroll-margin-top: 80px;
+}
+
+#research-experience {
+  scroll-margin-top: 90px;
+}
+
+#work-experience {
+  scroll-margin-top: 85px;
+}
