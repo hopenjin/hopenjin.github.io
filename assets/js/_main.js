@@ -70,6 +70,14 @@ $(document).ready(function(){
   $('.greedy-nav a[href^="#"]').on('click', function(e) {
     e.preventDefault(); // 阻止默认行为
 
+    // this.hash 示例:
+    // 如果链接是 <a href="#publications">Publications</a>
+    // this.hash 将返回 "#publications"
+    
+    // target.selector 示例:
+    // 可能返回不完整或错误的选择器字符串
+    // 有时会返回 undefined
+    
     var target = $(this.hash); // 获取目标
     if (!target.length) return; // 如果目标不存在，退出
 
@@ -85,9 +93,13 @@ $(document).ready(function(){
       complete: function() {
         // 更新 URL 但不触发页面刷新
         if (history.pushState) {
-          history.pushState(null, null, target.selector);
+          // 使用 this.hash 更可靠
+          history.pushState(null, null, this.hash);  // 正确: 直接使用原始的锚点值
+          
+          // 不要使用 target.selector
+          // history.pushState(null, null, target.selector);  // 错误: 可能获取不到正确的值
         }
-      }
+      }.bind(this)  // bind(this) 确保在回调函数中能访问到原始的 this
     });
   });
 });
