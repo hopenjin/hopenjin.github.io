@@ -40,14 +40,6 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* 为所有目标部分设置统一偏移 */
-// #about-me,
-// #publications,
-// #research-experience,
-// #work-experience {
-//   scroll-margin-top: 80px;  /* 上方偏移 */
-//   scroll-margin-bottom: 20px;  /* 下方偏移 */
-// }
 
 /* 或者为不同部分设置不同偏移 */
 #about-me {
@@ -65,3 +57,9 @@
 #work-experience {
   scroll-margin-top: 85px;
 }
+
+
+h1[id] {
+    padding-top: 80px;
+    margin-top: -60px;
+  }
