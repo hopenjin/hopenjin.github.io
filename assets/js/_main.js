@@ -73,7 +73,7 @@ $(document).ready(function(){
     $('body').css('pointer-events', 'none');
     
     $('html, body').animate({
-      scrollTop: target.offset().top - 80
+      scrollTop: target.offset().top - 180
     }, 500, function() {
       // 动画完成后重新启用点击事件
       $('body').css('pointer-events', 'auto');
