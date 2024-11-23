@@ -63,43 +63,5 @@ $(document).ready(function(){
   });
 
 
-  
 
-  // Smooth scrolling for nav links
-  // Smooth scrolling for nav links with offset for fixed navigation
-  $('.greedy-nav a[href^="#"]').on('click', function(e) {
-    e.preventDefault(); // 阻止默认行为
-
-    // this.hash 示例:
-    // 如果链接是 <a href="#publications">Publications</a>
-    // this.hash 将返回 "#publications"
-    
-    // target.selector 示例:
-    // 可能返回不完整或错误的选择器字符串
-    // 有时会返回 undefined
-    
-    var target = $(this.hash); // 获取目标
-    if (!target.length) return; // 如果目标不存在，退出
-
-    var navHeight = $('.masthead').outerHeight(); // 获取固定导航栏高度
-    var offset = target.offset().top - navHeight - 20; // 额外 20px 空间
-
-    // 平滑滚动到目标位置
-    $('html, body').animate({
-      scrollTop: offset
-    }, {
-      duration: 500,
-      easing: 'swing',
-      complete: function() {
-        // 更新 URL 但不触发页面刷新
-        if (history.pushState) {
-          // 使用 this.hash 更可靠
-          history.pushState(null, null, this.hash);  // 正确: 直接使用原始的锚点值
-          
-          // 不要使用 target.selector
-          // history.pushState(null, null, target.selector);  // 错误: 可能获取不到正确的值
-        }
-      }.bind(this)  // bind(this) 确保在回调函数中能访问到原始的 this
-    });
-  });
 });
