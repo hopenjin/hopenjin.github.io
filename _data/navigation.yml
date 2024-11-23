@@ -9,26 +9,10 @@ main:
     url: "/#about-me" 
   - title: "Publications"
     url: "/#publications" 
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-
   - title: "Research Experience"   
     url: "/#research-experience"   
   - title: "Work Experience"   
     url: "/#work-experience" 
-    
   - title: "CV"
-    url: /files/CV-Hongpeng-Jin.pdf # /cv/
+    url: /files/CV-Hongpeng-Jin.pdf
     
-  # - title: "Guide"
-  #   url: /markdown/

@@ -66,30 +66,49 @@ $(document).ready(function(){
   
 
   // Smooth scrolling for nav links
+  // $('.greedy-nav a[href^="#"]').on('click', function(e) {
+  //   e.preventDefault(); // 阻止默认行为
+    
+  //   var target = $(this.hash);
+  //   if (!target.length) return; // 如果目标不存在则退出
+    
+  //   // 禁用其他点击事件
+  //   $('body').css('pointer-events', 'none');
+    
+  //   // 使用 scrollIntoView 进行平滑滚动
+  //   target[0].scrollIntoView({
+  //     behavior: 'smooth',
+  //     block: 'start'
+  //   });
+
+  //   // 动画完成后重新启用点击事件
+  //   setTimeout(function() {
+  //     $('body').css('pointer-events', 'auto');
+      
+  //     // 更新 URL 但不触发跳转
+  //     if (history.replaceState) {
+  //       history.replaceState(null, null, target.selector);
+  //     }
+  //   }, 500); // 动画持续时间与 scrollIntoView 保持一致
+  // });
+  // Smooth scrolling for nav links with offset for fixed navigation
   $('.greedy-nav a[href^="#"]').on('click', function(e) {
     e.preventDefault(); // 阻止默认行为
-    
-    var target = $(this.hash);
-    if (!target.length) return; // 如果目标不存在则退出
-    
-    // 禁用其他点击事件
-    $('body').css('pointer-events', 'none');
-    
-    // 使用 scrollIntoView 进行平滑滚动
-    target[0].scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
 
-    // 动画完成后重新启用点击事件
-    setTimeout(function() {
-      $('body').css('pointer-events', 'auto');
-      
-      // 更新 URL 但不触发跳转
-      if (history.replaceState) {
-        history.replaceState(null, null, target.selector);
-      }
-    }, 500); // 动画持续时间与 scrollIntoView 保持一致
+    var target = $(this.hash); // 获取目标
+    if (!target.length) return; // 如果目标不存在，退出
+
+    var navHeight = $('.greedy-nav').outerHeight(); // 获取固定导航栏高度
+    var targetOffset = target.offset().top - navHeight; // 计算滚动偏移量
+
+    // 使用 jQuery animate 方法平滑滚动
+    $('html, body').animate({
+      scrollTop: targetOffset
+    }, 500, 'swing'); // 动画持续时间 500ms，缓动效果 swing
+
+    // 更新 URL（不会触发页面跳转）
+    if (history.replaceState) {
+      history.replaceState(null, null, this.hash);
+    }
   });
-
 });
