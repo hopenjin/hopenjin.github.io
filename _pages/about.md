@@ -50,7 +50,7 @@ Research Experience
 * **Efficient Deployment and Inference of Large Language Models**<br>
   Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit).<br>
   **Supervisor**: Dr. Yanzhao Wu<br>
-  ontributions:<br>
+  Contributions:<br>
   [1] **CE-CoLLM**: A LLM development method to optimize the inference efficiency and accuracy of LLMs on edge devices through cloud-edge collaboration and ML efficiency techniques, addressing diverse requirements such as inference accuracy, low latency, resource constraints, and privacy preservation.
   [2] **DA-MoE**: A dynamic expert allocation mechanism for Mixture-of-Experts (MoE) models that leverages attention-based token importance in Transformer architectures to dynamically adjust the number of experts per token, enhancing efficiency and predictive performance.<br><br>
 
@@ -58,7 +58,7 @@ Research Experience
 * **Ensemble Learning for Model Performance and Robustness**<br>
   Research on improving key aspects of Ensemble Learning, including diversity measurement, ensemble selection strategies, voting mechanisms, training methodologies, overall ensemble performance, and applications.<br>
   **Supervisor**: Dr. Yanzhao Wu<br>
-  ontributions:<br>
+  Contributions:<br>
   1. **LREnsemble**: An ensemble construction framework, effectively utilizing diverse models, generated through learning rate (LR) tuning, to construct efficient and high-quality ensembles, avoiding the waste of sub-optimal trained models by leveraging their diversity for ensemble learning.
   2. **Synergistic Diversity Metric (SQ)**: An ensemble diversity metric, significantly improving ensemble accuracy and robustness to out-of-distribution samples by optimizing diversity among member models.<br><br>
 
@@ -66,8 +66,20 @@ Research Experience
 * **Hyperparameter Optimization Strategy for Model Training**<br>
   Research on developing advanced hyperparameter optimization strategies to enhance the training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).<br>
   **Supervisor**: Dr. Yanzhao Wu<br>
-  ontributions:<br>
+  Contributions:<br>
   1. **LRBench++**: A dynamic learning rate tuning framework, improving DNNs and LLMs training efficiency and achieving a balance between model accuracy and training cost.
+
+
+Professional Services
+======
+* Reviewer: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024
+* Reviewer: Asian Conference on Machine Learning (ACML), 2024
+* External Reviewer: The Web Conference (WWW), 2025
+* External Reviewer: Association for the Advancement of Artificial Intelligence (AAAI), 2024
+* External Reviewer: International Joint Conference on Artificial Intelligence (IJCAI), 2024
+* External Reviewer: The Web Conference (WWW), 2024
+* External Reviewer: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024 
+* External Reviewer: SIAM International Conference on Data Mining (SDM), 2024
 
 
 Work Experience
