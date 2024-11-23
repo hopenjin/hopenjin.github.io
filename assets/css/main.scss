@@ -41,25 +41,9 @@
 @import "print";
 
 
-/* 或者为不同部分设置不同偏移 */
-#about-me {
-  scroll-margin-bottom: 100px;
-}
-
-#publications {
-  scroll-margin-top: 100px;
-}
-
-#research-experience {
-  scroll-margin-top: 90px;
-}
-
-#work-experience {
-  scroll-margin-top: 85px;
-}
 
 
 h1[id] {
     padding-top: 80px;
-    margin-top: -60px;
+    margin-top: -30px;
   }
