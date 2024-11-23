@@ -62,16 +62,27 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
-  // Add smooth scrolling to nav links
+  // Smooth scrolling for nav links
   $('.greedy-nav a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
+    e.preventDefault(); // 阻止默认行为
     
     var target = $(this.hash);
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top - 80 // Offset for fixed header
-      }, 500); // Animation duration in ms
-    }
+    if (!target.length) return; // 如果目标不存在则退出
+    
+    // 禁用其他点击事件
+    $('body').css('pointer-events', 'none');
+    
+    $('html, body').animate({
+      scrollTop: target.offset().top - 80
+    }, 500, function() {
+      // 动画完成后重新启用点击事件
+      $('body').css('pointer-events', 'auto');
+      
+      // 更新 URL 但不触发跳转
+      if (history.pushState) {
+        history.pushState(null, null, target.selector);
+      }
+    });
   });
 
 });
