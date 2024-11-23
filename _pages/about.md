@@ -24,9 +24,9 @@ Updates
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp;has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)) and under conference review.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp;in CogMI 2023.  
 
-<a id="publications"></a>
 
-Publications & Preprints
+
+Publications & Preprints {#publications}
 ======
 You can also find my work experience on [my Google Scholar profile](https://scholar.google.com/citations?user=Kkmx5XwAAAAJ).
 * CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
@@ -61,7 +61,7 @@ Research Experience
   [1] **LREnsemble**: An ensemble construction framework, effectively utilizing diverse models, generated through learning rate (LR) tuning, to construct efficient and high-quality ensembles, avoiding the waste of sub-optimal trained models by leveraging their diversity for ensemble learning.<br>
   [2] **Synergistic Diversity Metric (SQ)**: An ensemble diversity metric, significantly improving ensemble accuracy and robustness to out-of-distribution samples by optimizing diversity among member models.
 * **Hyperparameter Optimization Strategy for Model Training**<br>
-  Research on developing advanced hyperparameter optimization strategies to enhance the training efficiency, performance, and robustness of deep neural networks (DNNs) and large language models (LLMs).<br>
+  Research on developing advanced hyperparameter optimization strategies to enhance the training efficiency, performance, and robustness of deep neural networks (DNNs), transformers, and large language models (LLMs).<br>
   **Supervisor**: Dr. Yanzhao Wu<br>
   Contributions:<br>
   [1] **LRBench++**: A dynamic learning rate tuning framework, improving DNNs and LLMs training efficiency and achieving a balance between model accuracy and training cost.
