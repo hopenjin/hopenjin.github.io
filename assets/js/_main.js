@@ -30,25 +30,8 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // init smooth scroll
-  $("a[href*='#']").on('click', function(event) {
-    // 确保这个链接有hashtag
-    if (this.hash !== "") {
-      // 阻止默认的锚点跳转
-      event.preventDefault();
-
-      // 存储hash值
-      var hash = this.hash;
-
-      // 使用jQuery的animate()方法实现平滑滚动
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top - 65 // 65px offset for fixed header
-      }, 800, function(){
-        // 滚动完成后更新URL，但不跳转
-        window.history.pushState(null, null, hash);
-      });
-    }
-  });
+  // init smooth scroll, this needs to be slightly more than then fixed masthead height
+  $("a").smoothScroll({offset: -65});
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
