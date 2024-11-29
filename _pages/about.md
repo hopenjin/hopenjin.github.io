@@ -25,8 +25,8 @@ I hold a Master of Science in Information Technology and Management from the Uni
 
 Updates
 ======
-- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp;for conference review. 
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under conference review.
+- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp;for conference review. 
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp;at CogMI 2024.  
 - **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp;has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)) and under conference review.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp;in CogMI 2023.  
