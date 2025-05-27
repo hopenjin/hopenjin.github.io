@@ -76,6 +76,7 @@ Research Experience {#research-experience}
 
 Professional Services
 ======
+* Reviewer: IEEE Transactions on Big Data, 2025
 * Reviewer: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2024
 * Reviewer: Asian Conference on Machine Learning (ACML), 2024
 * External Reviewer: The Web Conference (WWW), 2025
