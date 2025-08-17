@@ -59,7 +59,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 Research Experience {#research-experience}
 ======
 * **Efficient Deployment and Inference of Large Language Models**<br>
-  Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit).<br>
+  Research on optimizing the inference effectiveness, efficiency, and scalability of Large Language Models (LLMs) through strategies such as cloud-edge collaboration, distributed AI, and ML efficiency techniques (e.g., early exit, speculative decoding).<br>
   **Supervisor**: Dr. Yanzhao Wu<br>
   Contributions:<br>
   [1] **CE-CoLLM**: A LLM development method to optimize the inference efficiency and accuracy of LLMs on edge devices through cloud-edge collaboration and ML efficiency techniques, addressing diverse requirements such as inference accuracy, low latency, resource constraints, and privacy preservation.<br>
