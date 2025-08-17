@@ -27,9 +27,7 @@ Updates
 ======
 - **May 2025** - Presented our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;at ICWS 2024.
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under conference review.
-- **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp;for conference review. 
-- **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp;at CogMI 2024.  
-- **Sep 2024** - Our work *"DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models"* &nbsp;has been published on arXiv ([arXiv:2409.06669](https://arxiv.org/abs/2409.06669)) and under conference review.
+- **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp;at CogMI 2024.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp;in CogMI 2023.  
 
 
@@ -40,6 +38,10 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 * CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
   Hongpeng Jin, Yanzhao Wu.<br>
   2025 IEEE International Conference on Web Services (ICWS 2025)
+
+* Efficient and Learning Rate Boosted Deep Ensembles<br>
+  Hongpeng Jin, Yanzhao Wu.<br>
+  arXiv preprint arXiv:2410.07564
 
 * DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models<br>
   Maryam Akhavan Aghdam, Hongpeng Jin, Yanzhao Wu.<br>
