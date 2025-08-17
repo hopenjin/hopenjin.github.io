@@ -39,7 +39,7 @@ Publications & Preprints {#publications}
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=Kkmx5XwAAAAJ).
 * CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
   Hongpeng Jin, Yanzhao Wu.<br>
-  IEEE International Conference on Web Services (ICWS 2025)
+  2025 IEEE International Conference on Web Services (ICWS 2025)
 
 * DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models<br>
   Maryam Akhavan Aghdam, Hongpeng Jin, Yanzhao Wu.<br>
