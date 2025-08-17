@@ -25,7 +25,7 @@ I hold a Master of Science in Information Technology and Management from the Uni
 
 Updates
 ======
-- **May 2025** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;is accepted in IEEE INTERNATIONAL CONFERENCE ON WEB SERVICES (ICWS 2025).
+- **May 2025** - Presented our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;at ICWS 2024.
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under conference review.
 - **Nov 2024** - Submitted *"Efficient and Learning Rate Boosted Deep Ensembles"* &nbsp;for conference review. 
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp;at CogMI 2024.  
@@ -39,7 +39,7 @@ Publications & Preprints {#publications}
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=Kkmx5XwAAAAJ).
 * CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration<br>
   Hongpeng Jin, Yanzhao Wu.<br>
-  arXiv preprint arXiv:2411.02829
+  IEEE International Conference on Web Services (ICWS 2025)
 
 * DA-MoE: Dynamic Expert Allocation for Mixture-of-Experts Models<br>
   Maryam Akhavan Aghdam, Hongpeng Jin, Yanzhao Wu.<br>
