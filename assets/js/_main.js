@@ -39,9 +39,12 @@ $(document).ready(function(){
   // Same-page anchors like #about-me
   $("a[href^='#']").smoothScroll({ offset: offset, speed: 400 });
 
-  // Root-anchored links like /#about-me
+  // Root-anchored links like /#about-me (same-document)
   $("a[href^='/#']").on('click', function(e) {
-    var anchor = $(this).attr('href').replace(/^\/#/, '#');
+    var href = this.getAttribute('href');
+    var hashIndex = href.indexOf('#');
+    if (hashIndex === -1) return; // no hash
+    var anchor = href.slice(hashIndex); // e.g., '#about-me'
     var $target = $(anchor);
     if ($target.length) {
       // Anchor exists on current page: prevent navigation and smoothly scroll
@@ -50,6 +53,24 @@ $(document).ready(function(){
       if (history.pushState) history.pushState(null, '', anchor);
     }
     // Otherwise let browser navigate to home page with hash
+  });
+
+  // Absolute same-page anchors like https://domain/#about-me
+  $("a[href^='http']").on('click', function(e) {
+    var href = this.getAttribute('href');
+    if (!href) return;
+    var url;
+    try { url = new URL(href, window.location.href); } catch (err) { return; }
+    if (!url.hash) return; // no anchor
+    // Only intercept if link points to the same document (same origin + same path)
+    if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
+      var $target = $(url.hash);
+      if ($target.length) {
+        e.preventDefault();
+        $.smoothScroll({ scrollTarget: url.hash, offset: offset, speed: 400 });
+        if (history.pushState) history.pushState(null, '', url.hash);
+      }
+    }
   });
 
   // If page loaded with a hash, adjust position for header offset
