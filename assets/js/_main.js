@@ -30,8 +30,36 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({offset: -65});
+  // Smooth scroll for internal anchors with dynamic masthead offset
+  var getMastheadOffset = function () {
+    return ($('.masthead').outerHeight(true) || 70) + 10; // header height + small buffer
+  };
+  var offset = -getMastheadOffset();
+
+  // Same-page anchors like #about-me
+  $("a[href^='#']").smoothScroll({ offset: offset, speed: 400 });
+
+  // Root-anchored links like /#about-me
+  $("a[href^='/#']").on('click', function(e) {
+    var anchor = $(this).attr('href').replace(/^\/#/, '#');
+    var $target = $(anchor);
+    if ($target.length) {
+      // Anchor exists on current page: prevent navigation and smoothly scroll
+      e.preventDefault();
+      $.smoothScroll({ scrollTarget: anchor, offset: offset, speed: 400 });
+      if (history.pushState) history.pushState(null, '', anchor);
+    }
+    // Otherwise let browser navigate to home page with hash
+  });
+
+  // If page loaded with a hash, adjust position for header offset
+  var initialHash = window.location.hash;
+  if (initialHash && $(initialHash).length) {
+    setTimeout(function() {
+      // animate cross-page hash positioning as well
+      $.smoothScroll({ scrollTarget: initialHash, offset: offset, speed: 400 });
+    }, 0);
+  }
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
