@@ -41,7 +41,7 @@
 @import "print";
 
 
-h1[id] {
-    padding-top: 80px;  
-    margin-top: -60px;    
-  }
+/* Use modern anchor positioning via scroll-margin instead of padding/margin hacks */
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+  scroll-margin-top: $masthead-height;
+}

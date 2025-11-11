@@ -32,7 +32,7 @@ $(document).ready(function(){
 
   // Smooth scroll for internal anchors with dynamic masthead offset
   var getMastheadOffset = function () {
-    return ($('.masthead').outerHeight(true) || 70) + 10; // header height + small buffer
+    return ($('.masthead').outerHeight(true) || 70);
   };
   var offset = -getMastheadOffset();
 
