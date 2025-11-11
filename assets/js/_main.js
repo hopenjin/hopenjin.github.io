@@ -34,7 +34,9 @@ $(document).ready(function(){
   var getMastheadOffset = function () {
     return ($('.masthead').outerHeight(true) || 70);
   };
-  var offset = -getMastheadOffset();
+  // leave a small visual buffer below the masthead for aesthetics
+  var visualBuffer = 12; // px
+  var offset = -(getMastheadOffset() + visualBuffer);
 
   // Same-page anchors like #about-me
   $("a[href^='#']").smoothScroll({ offset: offset, speed: 400 });
