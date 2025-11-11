@@ -62,8 +62,8 @@ $(document).ready(function(){
     var url;
     try { url = new URL(href, window.location.href); } catch (err) { return; }
     if (!url.hash) return; // no anchor
-    // Only intercept if link points to the same document (same origin + same path)
-    if (url.origin === window.location.origin && url.pathname === window.location.pathname) {
+    // Only intercept if link points to the same document path (ignore origin to support CNAME domains)
+    if (url.pathname === window.location.pathname) {
       var $target = $(url.hash);
       if ($target.length) {
         e.preventDefault();
