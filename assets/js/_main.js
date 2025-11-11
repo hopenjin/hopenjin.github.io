@@ -35,7 +35,7 @@ $(document).ready(function(){
     return ($('.masthead').outerHeight(true) || 70);
   };
   // leave a small visual buffer below the masthead for aesthetics
-  var visualBuffer = 12; // px
+  var visualBuffer = 20; // px
   var offset = -(getMastheadOffset() + visualBuffer);
 
   // Same-page anchors like #about-me
