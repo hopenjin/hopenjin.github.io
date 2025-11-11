@@ -36,10 +36,29 @@ $(document).ready(function(){
   };
   // leave a small visual buffer below the masthead for aesthetics
   var visualBuffer = 20; // px
-  var offset = -(getMastheadOffset() + visualBuffer);
 
-  // Same-page anchors like #about-me
-  $("a[href^='#']").smoothScroll({ offset: offset, speed: 400 });
+  // compute per-anchor offset so that "About me" matches initial page spacing
+  var computeOffset = function(anchor) {
+    var o = -(getMastheadOffset() + visualBuffer);
+    if (anchor === '#about-me') {
+      var mt = parseFloat($('#main').css('margin-top')) || 0; // e.g., 2em -> px
+      o -= mt; // keep the same extra gap visible as on first load
+    }
+    return o;
+  };
+
+  // Same-page anchors like #about-me (use per-anchor offset)
+  $(document).off('click.smoothLocal').on('click.smoothLocal', "a[href^='#']", function(e) {
+    var href = this.getAttribute('href');
+    if (!href || href === '#') return; // ignore empty hash
+    var anchor = href;
+    var $target = $(anchor);
+    if ($target.length) {
+      e.preventDefault();
+      $.smoothScroll({ scrollTarget: anchor, offset: computeOffset(anchor), speed: 400 });
+      if (history.pushState) history.pushState(null, '', anchor);
+    }
+  });
 
   // Root-anchored links like /#about-me (same-document)
   $("a[href^='/#']").on('click', function(e) {
@@ -51,7 +70,7 @@ $(document).ready(function(){
     if ($target.length) {
       // Anchor exists on current page: prevent navigation and smoothly scroll
       e.preventDefault();
-      $.smoothScroll({ scrollTarget: anchor, offset: offset, speed: 400 });
+      $.smoothScroll({ scrollTarget: anchor, offset: computeOffset(anchor), speed: 400 });
       if (history.pushState) history.pushState(null, '', anchor);
     }
     // Otherwise let browser navigate to home page with hash
@@ -69,7 +88,7 @@ $(document).ready(function(){
       var $target = $(url.hash);
       if ($target.length) {
         e.preventDefault();
-        $.smoothScroll({ scrollTarget: url.hash, offset: offset, speed: 400 });
+        $.smoothScroll({ scrollTarget: url.hash, offset: computeOffset(url.hash), speed: 400 });
         if (history.pushState) history.pushState(null, '', url.hash);
       }
     }
@@ -80,7 +99,7 @@ $(document).ready(function(){
   if (initialHash && $(initialHash).length) {
     setTimeout(function() {
       // animate cross-page hash positioning as well
-      $.smoothScroll({ scrollTarget: initialHash, offset: offset, speed: 400 });
+      $.smoothScroll({ scrollTarget: initialHash, offset: computeOffset(initialHash), speed: 400 });
     }, 0);
   }
 
