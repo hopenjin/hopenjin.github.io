@@ -20,12 +20,9 @@ My primary **research interests focus** on Large Language Models (LLMs) and LLM 
 
 I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
 
-<span style="color: #B31B1B;">I am actively seeking **2026 Summer Research Internship opportunities** in areas related to Large Language Models (LLMs).</span>
-
-
 Updates
 ======
-- **May 2025** - Presented our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;at ICWS 2024.
+- **July 2025** - Presented our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;at ICWS 2025.
 - **Nov 2024** - Our paper *"CE-CoLLM: Efficient and Adaptive Large Language Models Through Cloud-Edge Collaboration"* &nbsp;is now available on arXiv ([arXiv:2411.02829](https://arxiv.org/abs/2411.02829)) and under conference review.
 - **Oct 2024** - Presented our paper *"Effective Diversity Optimizations for Deep Ensembles"* &nbsp;at CogMI 2024.
 - **Nov 2023** - Presented our paper *"Rethinking Learning Rate Tuning in Large Language Models"* &nbsp;in CogMI 2023.  
