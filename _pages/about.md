@@ -16,7 +16,11 @@ About me {#about-me}
 ======
 Welcome to my academic website!  I am Hongpeng Jin, a Ph.D. student in the Knight Foundation School of Computing and Information Sciences (KFSCIS) at Florida International University (FIU). I began my academic journey in Fall 2023 and am currently under the supervision of [Dr. Bogdan Carbunar](https://users.cs.fiu.edu/~carbunar/).
 
+<!--
 My primary **research interests focus** on Large Language Models (LLMs) and LLM Agents, emphasizing their efficient inference, deployment, and practical applications. Additionally, I have a strong interest in ensemble learning and optimization strategies, aiming to enhance the scalability, efficiency, and robustness of AI systems. **My goal** is to deeply explore the underlying mechanisms and untapped potential of large language models, aiming to uncover innovative findings with significant academic value and practical industrial applications.
+-->
+
+My research focuses on **AI safety and security**, with an emphasis on how AI systems interact with users, adversaries, and institutions. I combine system design, model training, adversarial and computational analysis, and qualitative methods to study plausible deniability and controlled knowledge access, reliable human and AI-assisted institutional decision-making, and LLM-enabled influence operations. This work builds on my background in LLM systems, cloud-edge inference and deployment, ensemble learning, and model optimization.
 
 I hold a Master of Science in Information Technology and Management from the University of Texas at Dallas. Before pursuing my Ph.D., I gained valuable **industry experience** as a Data Scientist at Cintra US, where I developed machine learning models to optimize dynamic pricing, incident detection, and analytics-driven decision-making. I also worked at HP Inc., Samsung Electronics America, and ZTE USA, gaining diverse experience across data analysis, quality assurance, and automation testing.
 
